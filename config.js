@@ -2,9 +2,9 @@ let fs = require('fs')
 let chalk = require('chalk')
 
 global.owner = [
-  ['6282287750102'],
-  ['6282287750102'],
-  ['6282287750102', 'Owner', true]
+  ['15859684840'],
+  ['15859684840'],
+  ['15859684840', 'Owner', true]
   // [number, dia creator/owner?, dia developer?]
 ] // Put your number here
 global.mods = [] // Want some help?
@@ -41,7 +41,7 @@ const spack = fs.readFileSync("lib/exif.json")
 const stickerpack = JSON.parse(spack)
 if (stickerpack.spackname == '') {
   var sticker_name = '@en4y.pin'
-  var sticker_author = 'Hani'
+  var sticker_author = 'Alpin'
 } else {
   var sticker_name = stickerpack.spackname
   var sticker_author = stickerpack.sauthor
